@@ -1,0 +1,136 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #90EE90;
+}
+img {
+	max-width: 100%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-family: tahoma;
+	font-weight: bold;
+	background-color: #276b3f;
+	padding: 5px;
+}
+nav > div > a{
+	font-size: 30px;
+	color: white;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+nav > ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	list-style-type: none;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px 30px;
+}
+nav ul li a:hover {
+	color: black;
+}
+.text {
+	font-family: arial;
+	font-weight: lighter;
+	padding-left: 2%;
+}
+section {
+	display: flex;
+	padding: 10px;
+}
+article {
+	width: 500px;
+	margin: auto;
+	border: 2px solid transparent;
+	border-radius: 30px;
+	background: #00873E;
+}
+.side {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 20%;
+	overflow: hidden;
+}
+.list1 ul li, .list2 ul li{
+	color: white;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+footer {
+	margin-top: 50px;
+	margin-bottom: -30px;
+	background: #00873E;
+}
+footer > p {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 1060px) {
+	section {
+		display: block;
+		padding: 50px;
+	}
+	article {
+		width: 800px;
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	section {
+		display: block;
+		padding: 50px;
+	}
+	article {
+		width: 600px;
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 680px) {
+	section {
+		display: block;
+		padding: 50px;
+	}
+	article {
+		width: 300px;
+		margin-bottom: 50px;
+	}
+	nav {
+		display: block;
+		text-align: center;
+	}
+	nav ul li a {
+		padding: 0px 10px;
+	}
+}
+
+
+
